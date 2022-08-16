@@ -1,0 +1,74 @@
+.modal-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    border:2px solid #000;
+    background-color: rgba(128, 128, 128, 0.135);
+    box-shadow: 2px solid black;
+    height:80;
+    width: 240;
+    margin: auto;
+}
+
+.form-container{
+    background-color: white;
+    padding: 20px;
+    width:40%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-box{
+    -webkit-appearance: none;
+    background-color: rgba(208, 208, 208, 0.5);
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    width:70%;
+    padding: 10px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.button-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width:70%;
+
+}
+
+.button{
+    -webkit-appearance: none;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px 16%;
+    margin: 0px 5px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    font-size: 15px;
+    text-align: center;
+    color:rgba(0, 0, 0, 0.41);
+}
+
+.button-cancel{
+    background-color: rgba(251, 152, 152, 0.789);
+}
+
+.button-submit{
+    background-color: rgba(145, 252, 113, 0.671);
+}
+
+button:hover{
+    color:rgba(255, 255, 255, 0.692);
+    transform: scale(1.05);
+    transition: transform 0.25s ease-out;
+}

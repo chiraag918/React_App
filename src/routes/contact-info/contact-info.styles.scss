@@ -1,0 +1,27 @@
+.contact-info-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin:10%;
+    background-color: rgba(126, 126, 126, 0.514);
+    padding:10%;
+    border-radius: 10px;
+
+    .contact-info-img{
+        border-radius: 50%;
+        scale:1.5;
+    }
+
+    .contact-info-text{
+        scale:1.5;
+        color:white;
+        
+        h1{
+
+            background: linear-gradient(to left, rgb(255, 48, 48),rgb(77, 77, 255));
+            background-clip: text;
+            color:transparent;
+        }
+    }
+}
