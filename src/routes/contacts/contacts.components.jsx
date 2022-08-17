@@ -36,7 +36,7 @@ const Contacts = ({contacts,setContacts,sortBy,setSortBy}) =>{
   }
 
   const addContacts = ({name,email,phone}) =>{
-    setContacts([...contacts,{id:`${contacts[contacts.length-1].id+1}`,name,email,phone}]);
+    setContacts([...contacts,{id:contacts[contacts.length-1].id+1,name,email,phone}]);
   }
 
   const deleteContacts = (name) =>{

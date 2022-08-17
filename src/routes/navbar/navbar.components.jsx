@@ -1,6 +1,7 @@
 import { Fragment } from "react";
 import { Link, Outlet } from "react-router-dom";
 import "./navbar.styles.scss"
+import { ReactComponent as Logo } from "../../assets/Chiraag.svg"
 
 
 
@@ -10,7 +11,7 @@ const NavBar = () => {
     <Fragment>
       <div className="navigation">
         <Link className="logo-container" to="/">
-          CHIRAAG'S APP
+          <Logo/>
         </Link>
         <div className="nav-links-container">
           <Link className="nav-link" to="/">
@@ -21,6 +22,9 @@ const NavBar = () => {
           </Link>
           <Link className="nav-link" to="/todo">
             <div>TO DO</div>
+          </Link>
+          <Link className="nav-link" to="/posts">
+            <div>POSTS</div>
           </Link>
         </div>
       </div>
